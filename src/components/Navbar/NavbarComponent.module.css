@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+}
+.leftNav{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    color: var(--font-secondary-color);
+}
+.rightNav{
+    display: flex;
+    width: 300px;
+}
+
+.inputField{
+    border-radius: 15px;
+    background-color: rgb(211, 207, 207);
+    height: 30px;
+    padding: 5px;
+}
+.navLink{
+    height: 100%;   
+    position: relative;
+    text-decoration: none;
+    color: rgb(153, 151, 151);
+}
+  .navLink::before {
+    background: hsl(45 100% 70%);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+  }
+  
+  .navLink:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+a{
+    text-decoration: none;
+}
