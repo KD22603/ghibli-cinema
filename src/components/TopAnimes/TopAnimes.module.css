@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 10px auto;
+    width: 80%;
+}.container:not(:last-child){
+   column-gap: 10px;
+}.header{
+    text-align: center;
+    font-weight: bolder;
+    color: var(--font-color);
+}

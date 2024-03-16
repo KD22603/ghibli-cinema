@@ -1,14 +1,14 @@
 import CarouselList from "../components/CarouselList/CarouselList";
-
-import NavbarComponent from "../components/Navbar/NavbarComponent"
+import PageSocialMedia from "../components/PageSocialMedia/PageSocialMedia";
+import TopAnimes from "../components/TopAnimes/TopAnimes";
 
 const Homepage = () =>{
     return(
         <>
-        <NavbarComponent />
         <CarouselList />
+        <PageSocialMedia/>
+        <TopAnimes/>
         </>
-     
     )
 }
 

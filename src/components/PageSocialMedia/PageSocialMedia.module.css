@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 90px 50px 90px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: black;
+}
+.buttonContainer{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.info{
+    color: var(--font-color);
+}
+.facebookButton{
+    background-color: #0e0e72;
+}
+.instagramButton{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(245,41,41,1) 31%, rgba(252,176,69,1) 100%);
+}
+.instagramButton:hover{
+    
+}
+.discordButton{
+
+}
+.tiktokButton{
+    background-color: rgb(14, 14, 14);
+}

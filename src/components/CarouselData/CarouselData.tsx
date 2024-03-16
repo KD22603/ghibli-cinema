@@ -19,13 +19,13 @@ const CarouselData:React.FC<Props> = ({
   return (
     <div className={styles.container}>
 <div>
-    <h1>{title}</h1>
-    <p><ShoppingCartOutlined />{original_title}</p>
-    <p>{description}</p>
-    <button>Buy tickets!</button>
+    <h1 className={styles.title}>{title}</h1>
+    <p className={styles.details}><ShoppingCartOutlined />{original_title}</p>
+    <p className={styles.details}>{description}</p>
+    <button className={styles.carouselButton}>Buy tickets!</button>
 </div>
 <div>
-    <img src={image} alt="" />
+    <img className={styles.carouselImage}src={image} alt="" />
 </div>
 </div>
   )

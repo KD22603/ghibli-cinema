@@ -6,8 +6,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    height: 50px;
+    background-color: rgb(26, 26, 26);
+    height: 70px;
 }
 .leftNav{
     display: flex;
@@ -21,10 +21,10 @@
 }
 
 .inputField{
-    border-radius: 15px;
-    background-color: rgb(211, 207, 207);
     height: 30px;
     padding: 5px;
+    border: 1px solid var(--font-secondary-color);
+
 }
 .navLink{
     height: 100%;   
@@ -32,21 +32,10 @@
     text-decoration: none;
     color: rgb(153, 151, 151);
 }
-  .navLink::before {
-    background: hsl(45 100% 70%);
-    content: "";
-    inset: 0;
-    position: absolute;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.5s ease-in-out;
-    z-index: -1;
-  }
-  
-  .navLink:hover::before {
-    transform: scaleX(1);
-    transform-origin: left;
-  }
+.navImg{
+width: 50px;
+    
+}
 a{
     text-decoration: none;
 }

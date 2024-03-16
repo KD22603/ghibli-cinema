@@ -1,10 +1,14 @@
 import './App.css'
-import Homepage from './pages/Homepage'
 import './color-variables/variables.css'
+import { Outlet } from 'react-router-dom'
+import NavbarComponent from './components/Navbar/NavbarComponent'
 
 function App() {
   return (
-    <Homepage />
+    <>
+    <NavbarComponent />
+    <Outlet />
+    </>
   )
 }
 

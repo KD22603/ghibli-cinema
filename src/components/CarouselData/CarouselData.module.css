@@ -1,15 +1,27 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: black;
+}
+body{
+    background-color: rgb(16, 16, 16);
 }
 .container{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
     align-items: center;
-    height: 600px;
+    max-width: 1000px;
+    height: 400px;
+    margin: 0 auto;
 }
-button{
+.title{
+    color: var(--font-color);
+    text-align: start;
+}
+.details{
+    color: var(--font-color);
+    text-align: start;
+}
+.carouselButton{
     font-family: cursive;
     font-size: 20px;
     background-color: var(--secondary-color);
@@ -17,7 +29,8 @@ button{
     padding: 10px;
     border-radius: 15px;
 }
-img{
+.carouselImage{
     height: 300px;
     width: 600px;
+    object-fit: cover;
 }
