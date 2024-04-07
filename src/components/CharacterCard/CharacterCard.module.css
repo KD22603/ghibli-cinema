@@ -1,0 +1,7 @@
+.characterCard{
+    border: 2px solid black;
+}
+.characterCard:hover{
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+}

@@ -21,14 +21,7 @@ body{
     color: var(--font-color);
     text-align: start;
 }
-.carouselButton{
-    font-family: cursive;
-    font-size: 20px;
-    background-color: var(--secondary-color);
-    color: var(--font-color);
-    padding: 10px;
-    border-radius: 15px;
-}
+
 .carouselImage{
     height: 300px;
     width: 600px;

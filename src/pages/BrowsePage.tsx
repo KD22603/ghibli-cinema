@@ -1,8 +1,9 @@
+import BrowseList from "../components/BrowseList/BrowseList"
 
 
 const BrowsePage = () => {
   return (
-    <div></div>
+    <BrowseList/>
   )
 }
 

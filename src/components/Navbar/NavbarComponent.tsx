@@ -7,9 +7,9 @@ const NavbarComponent = () =>{
     return(
       <nav className={styles.navbar}>
         <div className={styles.leftNav}>
-      <Link className={styles.navLink} to={"/"}><img className={styles.navImg} src="src/company-images/logo.png"/> </Link>
+      <Link className={styles.navLink} to={"/"}><img className={styles.navImg} src="src/company-images/logo.png" alt="..."/> </Link>
       <Link className={styles.navLink} to={"browse"}>Browse</Link>
-      <Link className={styles.navLink} to={""}>My Reservations</Link>
+      <Link className={styles.navLink} to={"tickets"}>My Reservations</Link>
       <Link className={styles.navLink} to={""}>Favorites</Link>
     </div>
     <div className={styles.rightNav}>

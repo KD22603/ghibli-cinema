@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    margin: 10px auto;
+    width: 80%;
+    color: var(--font-color);
+}
+.images{
+height: 180px;
+}
+.movieTitle{
+    color: var(--secondary-color);
+}
+.movieInfoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 50px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}

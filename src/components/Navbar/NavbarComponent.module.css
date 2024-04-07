@@ -12,8 +12,12 @@
 .leftNav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 500px;
     color: var(--font-secondary-color);
+}
+.leftNav a:hover{
+    color: var(--secondary-color);
 }
 .rightNav{
     display: flex;
@@ -30,10 +34,11 @@
     height: 100%;   
     position: relative;
     text-decoration: none;
+
     color: rgb(153, 151, 151);
 }
 .navImg{
-width: 50px;
+width: 150px;
     
 }
 a{

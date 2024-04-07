@@ -5,6 +5,8 @@ export type CharacterType = {
     description:string;
     director:string;
     release_date:string;
-    running_time:number;
+    running_time:string;
     image:string;
+    movie_banner: string;
+    rt_score: string;
 }

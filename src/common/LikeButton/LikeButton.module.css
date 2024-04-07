@@ -1,0 +1,7 @@
+.heartButton{
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: none;
+}.heartOutlined{
+    font-size: 30px;
+}

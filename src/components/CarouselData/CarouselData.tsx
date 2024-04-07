@@ -1,6 +1,7 @@
 import React from 'react'
 import { ShoppingCartOutlined } from '@ant-design/icons';
 import styles from './CarouselData.module.css'
+import Button from '../../common/Button/Button';
 
 interface Props {
     id:string;
@@ -22,7 +23,7 @@ const CarouselData:React.FC<Props> = ({
     <h1 className={styles.title}>{title}</h1>
     <p className={styles.details}><ShoppingCartOutlined />{original_title}</p>
     <p className={styles.details}>{description}</p>
-    <button className={styles.carouselButton}>Buy tickets!</button>
+    <Button label='Buy Tickets!'/>
 </div>
 <div>
     <img className={styles.carouselImage}src={image} alt="" />
